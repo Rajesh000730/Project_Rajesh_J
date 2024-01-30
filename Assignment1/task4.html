@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Form</title>
+</head>
+<style>
+    form{
+        display:flex;
+        flex-direction:column;
+        width:200px;
+    }
+    form *{
+        margin:10px;
+    }
+</style>
+<body>
+
+  <div >
+      <form>
+          <input type="text" placeholder="name"/>
+          <input type="text" placeholder="email"/>
+          <select>
+              <option>Gender</option>
+              <option>Male</option>
+              <option>Female</option>
+          </select>
+        <select id="countries">
+         <option value="afghanistan">Afghanistan</option>
+          <option value="albania">Albania</option>
+          <option value="algeria">Algeria</option>
+          <option value="andorra">Andorra</option>
+          <option value="angola">Angola</option>
+          <option value="antigua_and_barbuda">Antigua and Barbuda</option>
+          <option value="argentina">Argentina</option>
+          <option value="armenia">Armenia</option>
+          <option value="australia">Australia</option>
+          <option value="austria">Austria</option>
+          <option value="azerbaijan">Azerbaijan</option>
+          <option value="bahamas">Bahamas</option>
+          <option value="bahrain">Bahrain</option>
+          <option value="bangladesh">Bangladesh</option>
+          <option value="barbados">Barbados</option>
+          <option value="belarus">Belarus</option>
+          <option value="belgium">Belgium</option>
+        </select>
+        <textarea placeholder="address" ></textarea>
+        <button type="submit">Submit</button>
+        <button type="reset">reset</button>
+      </form>
+  </div>
+</body>
+</html>
+
